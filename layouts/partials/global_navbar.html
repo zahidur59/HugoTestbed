@@ -1,0 +1,12 @@
+  <nav>
+    <div class="p-3  mb-10 grid grid-cols-2 eventLink ">
+        <div class="justify-start">
+            <p class="justify-self-start"><a href="/">Logo</a></p>
+        </div>
+        <div class="flex justify-end">
+            {{ range where .Site.RegularPages "Type" "page" }}
+                <div class="ml-10"><a href="{{ .Permalink}}">{{ .Title}}</a></div>
+            {{end}}
+        </div>
+    </div>
+  </nav>

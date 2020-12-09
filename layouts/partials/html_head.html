@@ -1,0 +1,11 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{.Site.Title}}</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  {{ $style := resources.Get "css/main.scss" }}
+  {{ $style := $style | toCSS | minify | fingerprint }}
+  <link href="{{ $style.Permalink }}" rel="stylesheet">
+</head>

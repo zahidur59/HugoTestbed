@@ -1,0 +1,10 @@
+<html lang="en">
+
+    {{ partial "html_head" . }}
+
+<body>
+    {{ partial "global_navbar" .}}
+    {{ block "content" . }} {{ end }}
+    <script src="js/scripts.js"></script>
+</body>
+</html>
