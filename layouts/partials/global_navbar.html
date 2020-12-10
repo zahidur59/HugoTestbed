@@ -1,12 +1,25 @@
   <nav>
-    <div class="p-3  mb-10 grid grid-cols-2 eventLink ">
-        <div class="justify-start">
-            <p class="justify-self-start"><a href="/">Logo</a></p>
+    {{ $currentPage := . }}
+    <div class="p-3 flex eventLink ">
+        <div class="">
+            <p class=""><a href="/">Logo</a></p>
         </div>
-        <div class="flex justify-end">
-            {{ range where .Site.RegularPages "Type" "page" }}
+        <div class="flex justify-end flex-grow">
+            {{ range .Site.Menus.main }}
+            {{ $active := or (eq $.URL .URL) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
+            <a class="ml-5 mr-5 border-b-2 border-transparent {{ if $active }}  border-gray-400{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            {{ end }}
+            <!-- {{ range where .Site.RegularPages "Type" "page" }}
                 <div class="ml-10"><a href="{{ .Permalink}}">{{ .Title}}</a></div>
-            {{end}}
+            {{end}} -->
         </div>
     </div>
   </nav>
+<!--
+<nav class="sidebar-nav">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+    {{ end }}
+</nav>
+-->

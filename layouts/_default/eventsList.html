@@ -1,16 +1,12 @@
 {{ define "content" }}
-<h1 class="font-sans text-lg text-5xl text-purple-900">{{.Title}}</h1>
-<p class="pt-10 pb-10">{{ .Summary }}</p>
-<div class="p-10 mt-10 mb-10  eventLink">
+    {{ .Content }}
     <h1 class="font-sans text-lg text-2xl text-purple-900 mb-16">Checkout the news/Events</h1>
-    <div class="grid grid-cols-3 grid-flow-row gap-4">
+    <div class="grid grid-flow-col grid-cols-3 grid-rows-3 gap-4">
     {{ range where .Site.RegularPages "Type" "event_posts" }}
-        <div class="ml-10 p-20 bg-gray-100 ">
+        <div class="">
             <div><a href="{{ .Permalink}}">{{ .Title}}</a></div>
             <div>{{ .Summary}}</div>
         </div>
     {{end}}
     </div>
-</div>
-<p class="mt-32 text-1xl bg-gray-500">Layout eventList</p>
 {{ end }}

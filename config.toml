@@ -3,3 +3,37 @@ languageCode = "en-us"
 title = "Hugo Testbed"
 [outputs]
   home = ["html", "json"]
+
+[menu]
+
+    [[menu.main]]
+    name = "Home"
+    title = "Welcome to our site"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/"
+    weight = 1
+   
+    [[menu.main]]
+    name = "News/Events"
+    title = "Checkout whats happening with us"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/events/"
+    weight = 2
+    
+    [[menu.main]]
+    identifier = "about"
+    name = "About us"
+    title = "About our company"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = 3
+    
+    [[menu.main]]
+    name = "Contact Us"
+    title = "Feel free to contact us"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/contact/"
+    weight = 4
