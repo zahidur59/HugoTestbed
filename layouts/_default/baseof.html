@@ -4,7 +4,13 @@
 
 <body>
     {{ partial "global_navbar" .}}
-        <div class="pageBanner bg-gray-100" style="background-image:url({{ .Params.bannerImage }})">
+        <div class="pageBanner bg-gray-100" style="background-image:url(
+                {{ if isset .Params "bannerimage" }} 
+                    {{ .Params.bannerImage | safeCSS  }}
+                {{else}}
+                    /img/background-textures-common.jpg
+                {{ end }}
+        )">
     </div>
     <div class="container container-sm container-md container-lg container-xl mx-auto mp-4 px-16 pt-16 pb-16 -mt-16 bg-gray-100">
         <h1 class="font-sans text-lg text-5xl text-purple-900">{{.Title}}</h1>
