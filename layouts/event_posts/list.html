@@ -1,0 +1,14 @@
+{{ define "content" }}
+    {{ .Content }}
+    <h1 class="font-sans text-lg text-2xl text-purple-900 mb-16">Checkout the news/Events</h1>
+    <div class="grid grid-flow-row grid-cols-3 grid-rows-3 gap-4">
+    {{ range where .Site.RegularPages "Type" "event_posts" }}
+        <div class="">
+            <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
+            <div class="text-xs text-purple-900">{{ .Date.Format "Mon, 2 Jan, 2006" }}</div>
+            <div>{{ .Summary}}</div>
+            <a href="{{ .Permalink}}" class="text-xs text-purple-900" >Read full story</a>
+        </div>
+    {{end}}
+    </div>
+{{ end }}

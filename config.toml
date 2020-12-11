@@ -1,6 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://zahidur59.github.io/hugoTestbed/"
 languageCode = "en-us"
 title = "Hugo Testbed"
+publishDir = "docs"
+
 [outputs]
   home = ["html", "json"]
 
