@@ -2,10 +2,10 @@
 title="About"
 date ="Feb 01 2020"
 summary = "Summery about about us page ...."
-bannerImage = "/img/background-textures-2.jpg"
+bannerImage = "../img/background-textures-2.jpg"
 +++
 ## Introduction
-![alt text](/img/backImg1.svg)
+![alt text](../img/backImg1.svg)
 One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
 
 ## My Heading

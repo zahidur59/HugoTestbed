@@ -4,7 +4,7 @@ date = 2020-01-14
 summary = "Summery about Event 1 ..."
 +++
 ## Introduction
-![alt text](/img/backImg1.svg)
+![alt text](../../img/backImg1.svg)
 One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
 
 ## My Heading

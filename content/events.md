@@ -4,10 +4,10 @@ date ="Feb 01 2020"
 type = "page"
 layout = "eventsList"
 summary = "Summary News Events page ..."
-bannerImage = "/img/background-textures-4.jpeg"
+bannerImage = "../img/background-textures-4.jpeg"
 +++
 ## Introduction
-![alt text](/img/backImg1.svg)
+![alt text](../img/backImg1.svg)
 One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
 
 ## My Heading
