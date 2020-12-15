@@ -2,7 +2,7 @@
     {{ $currentPage := . }}
     <div class="p-3 flex eventLink ">
         <div class="">
-            <p class=""><a href="/">Logo</a></p>
+            <p class=""><a href="{{.Site.BaseURL}}">Logo</a></p>
         </div>
         <div class="flex justify-end flex-grow">
             {{ range .Site.Menus.main }}

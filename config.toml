@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Hugo Testbed"
 publishDir = "docs"
 
+paginate = 5
+
 [outputs]
   home = ["html", "json"]
 
