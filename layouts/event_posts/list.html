@@ -1,0 +1,17 @@
+{{ define "content" }} 
+    {{ .Content }}
+    <hr class="mt-8 mb-8 text-gray-500" />
+    <div class="">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "event_posts") 10 }}
+        {{ range $paginator.Pages }}
+            <div class="w-1/2 px-2 py-4 bg-rose-400">
+                <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
+                <div class="text-xs text-purple-900">{{ .Date.Format "Mon, 2 Jan, 2006" }}</div>
+                <div>{{ .Summary}}</div>
+                <a href="{{ .Permalink}}" class="text-xs text-purple-900" >Read full story</a>
+            </div>
+        {{ end }}
+     </div>
+    <!-- Custom pagination template. -->  
+    {{ partial "paginationbar_template" . }}
+{{ end }}

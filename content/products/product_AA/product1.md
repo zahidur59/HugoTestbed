@@ -1,13 +1,11 @@
 +++
-title="News & Events"
-date ="Feb 01 2020"
-type = "list"
-layout = "eventsList"
-summary = "Summary News Events page ..."
-bannerImage = "../img/background-textures-4.jpeg"
+title="Product 1"
+date = 2020-01-11
+type = "product"
+summary = "Summery about Event 1 ...."
 +++
 ## Introduction
-![alt text](../img/backImg1.svg)
+![alt text](../../img/backImg1.svg)
 One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
 
 ## My Heading
