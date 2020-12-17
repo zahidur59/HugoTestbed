@@ -1,7 +1,6 @@
 +++
-title="Product 1"
+title="Product AA 1"
 date = 2020-01-11
-type = "product"
 summary = "Summery about Event 1 ...."
 +++
 ## Introduction

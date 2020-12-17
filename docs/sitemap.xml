@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/event_posts/</loc>
+    <loc>https://zahidur59.github.io/hugoTestbed/</loc>
     <lastmod>2020-01-28T00:00:00+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/</loc>
+    <loc>https://zahidur59.github.io/hugoTestbed/event_posts/</loc>
     <lastmod>2020-01-28T00:00:00+06:00</lastmod>
   </url>
   
@@ -103,6 +103,51 @@
   </url>
   
   <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/products/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product1/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product2/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product3/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product4/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product5/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product6/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product7/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zahidur59.github.io/hugoTestbed/about/</loc>
   </url>
   
@@ -112,10 +157,6 @@
   
   <url>
     <loc>https://zahidur59.github.io/hugoTestbed/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/events/</loc>
   </url>
   
   <url>

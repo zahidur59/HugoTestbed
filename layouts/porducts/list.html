@@ -1,10 +1,8 @@
 {{ define "content" }} 
     {{ .Content }}
     <hr class="mt-8 mb-8 text-gray-500" />
-asdasdfasdf
-<!--
     <div class="">
-        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "products") 10 }}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "event_posts") 10 }}
         {{ range $paginator.Pages }}
             <div class="w-1/2 px-2 py-4 bg-rose-400">
                 <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
@@ -14,10 +12,6 @@ asdasdfasdf
             </div>
         {{ end }}
      </div>
--->
-<!-- Custom pagination template. -->  
-<!--
-    
+    <!-- Custom pagination template. -->  
     {{ partial "paginationbar_template" . }}
--->
 {{ end }}
