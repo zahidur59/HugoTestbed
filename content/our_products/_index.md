@@ -2,6 +2,7 @@
 title="Our Products"
 date ="Feb 01 2020"
 type = "list"
+draft= "false"
 summary = "Summary Product Main page  ..."
 bannerImage = "../img/background-textures-4.jpeg"
 +++

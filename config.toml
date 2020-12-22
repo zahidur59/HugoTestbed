@@ -2,9 +2,12 @@ baseURL = "https://zahidur59.github.io/hugoTestbed/"
 languageCode = "en-us"
 title = "Hugo Testbed"
 publishDir = "docs"
-
 paginate = 5
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  
 [outputs]
   home = ["html", "json"]
 
@@ -23,7 +26,7 @@ paginate = 5
     title = "Check out what we have for you"
     post = "<span class='alert'>New!</span>"
     pre = "<i class='fa fa-road'></i>"
-    url = "/products/"
+    url = "/our_products/"
     weight = 2
     
     [[menu.main]]
@@ -49,3 +52,4 @@ paginate = 5
     pre = "<i class='fa fa-road'></i>"
     url = "/contact/"
     weight = 5
+

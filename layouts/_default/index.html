@@ -3,9 +3,21 @@
         <!-- <p class="pt-10 pb-10">{{ .Summary }}</p> -->
         {{ .Content }}
         <hr class="mt-8 mb-8 text-gray-500" />
+        Featured Products
         <div class="flex overflow-hidden">
-            
-            {{ range first 3 (where .Site.RegularPages "Type" "event_posts") }}
+            {{ range .Site.Taxonomies.tags.featured_home  }}
+                <div class="w-1/2 px-2 py-4 bg-rose-400">
+                    <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
+                    <div class="text-xs text-purple-900">Type: {{ .Params.Texonomies.Categories }}</div>
+                    <div>{{ .Summary}}</div>
+                    <a href="{{ .Permalink}}" class="text-xs text-purple-900" >View</a>
+                </div>
+            {{ end }}
+         </div>
+        <hr class="mt-8 mb-8 text-gray-500" />
+        Featured News
+        <div class="flex overflow-hidden">
+            {{ range .Site.Taxonomies.categories.featured | first 3 }}
                 <div class="w-1/2 px-2 py-4 bg-rose-400">
                     <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
                     <div class="text-xs text-purple-900">{{ .Date.Format "Mon, 2 Jan, 2006" }}</div>
@@ -16,5 +28,4 @@
          </div>
         <!-- Custom pagination template. -->  
         
-
 {{ end }}

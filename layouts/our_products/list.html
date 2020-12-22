@@ -1,0 +1,14 @@
+{{ define "content" }} 
+    {{ .Content }}
+    <hr class="mt-8 mb-8 text-gray-500" />
+    <div class=" ">
+            {{ range .Site.Taxonomies.tags.product_category  }}
+                <div class="mb-8">
+                    <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
+                    <div class="text-xs text-purple-900">Type: {{ .Params.Texonomies.Categories }}</div>
+                    <div>{{ .Summary}}</div>
+                    <a href="{{ .Permalink}}" class="text-xs text-purple-900" >View</a>
+                </div>
+            {{ end }}
+         </div>
+{{ end }}

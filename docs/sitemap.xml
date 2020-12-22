@@ -103,51 +103,6 @@
   </url>
   
   <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/</loc>
-    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/products/</loc>
-    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product1/</loc>
-    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product2/</loc>
-    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product3/</loc>
-    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product4/</loc>
-    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product5/</loc>
-    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product6/</loc>
-    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/products/product_aa/product7/</loc>
-    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zahidur59.github.io/hugoTestbed/about/</loc>
   </url>
   
@@ -157,6 +112,10 @@
   
   <url>
     <loc>https://zahidur59.github.io/hugoTestbed/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/our_products/</loc>
   </url>
   
   <url>

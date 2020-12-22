@@ -2,6 +2,7 @@
 title="Event 16"
 date = 2020-01-26
 summary = "Summery about Event 3 ...."
+categories = [ "News", "Event" ]
 +++
 ## Introduction
 ![alt text](../../img/backImg1.svg)

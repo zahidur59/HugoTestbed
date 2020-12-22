@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event18/</loc>
+    <lastmod>2020-01-28T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/</loc>
+    <lastmod>2020-01-28T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/</loc>
+    <lastmod>2020-01-28T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event17/</loc>
+    <lastmod>2020-01-27T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event16/</loc>
+    <lastmod>2020-01-26T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event15/</loc>
+    <lastmod>2020-01-25T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event14/</loc>
+    <lastmod>2020-01-24T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event13/</loc>
+    <lastmod>2020-01-23T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event12/</loc>
+    <lastmod>2020-01-22T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event11/</loc>
+    <lastmod>2020-01-21T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event10/</loc>
+    <lastmod>2020-01-20T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event9/</loc>
+    <lastmod>2020-01-19T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event8/</loc>
+    <lastmod>2020-01-18T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event7/</loc>
+    <lastmod>2020-01-17T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event6/</loc>
+    <lastmod>2020-01-16T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event5/</loc>
+    <lastmod>2020-01-15T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event4/</loc>
+    <lastmod>2020-01-14T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event3/</loc>
+    <lastmod>2020-01-13T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event2/</loc>
+    <lastmod>2020-01-12T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/event_posts/event1/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/our_products/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/our_products/product_aa_1/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/hugoTestbed/tags/</loc>
+  </url>
+  
+</urlset>

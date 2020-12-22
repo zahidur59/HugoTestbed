@@ -1,7 +1,10 @@
 +++
-title="Product AA 1"
+title="Product A3"
 date = 2020-01-11
-summary = "Summery about Event 1 ...."
+draft= "false"
+summary = "Some product details"
+tags=["product"]
+categories=["Wall"]
 +++
 ## Introduction
 ![alt text](../../img/backImg1.svg)
