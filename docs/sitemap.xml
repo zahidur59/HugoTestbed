@@ -3,12 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/product_category/product_category_c/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/product_category/product_category_b/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/product_category/product_category_a/</loc>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/categories/</loc>
+    <lastmod>2020-01-28T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/categories/event/</loc>
+    <lastmod>2020-01-28T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zahidur59.github.io/hugoTestbed/event_posts/event18/</loc>
     <lastmod>2020-01-28T00:00:00+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://zahidur59.github.io/hugoTestbed/</loc>
+    <lastmod>2020-01-28T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/categories/news/</loc>
     <lastmod>2020-01-28T00:00:00+06:00</lastmod>
   </url>
   
@@ -93,6 +120,11 @@
   </url>
   
   <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/categories/featured/</loc>
+    <lastmod>2020-01-13T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zahidur59.github.io/hugoTestbed/event_posts/event2/</loc>
     <lastmod>2020-01-12T00:00:00+06:00</lastmod>
   </url>
@@ -103,11 +135,67 @@
   </url>
   
   <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/about/</loc>
+    <loc>https://zahidur59.github.io/hugoTestbed/tags/featured/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/categories/</loc>
+    <loc>https://zahidur59.github.io/hugoTestbed/tags/featured_home/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/tags/floor/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/tags/homogeneous/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/our_products/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/our_products/product_1/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/our_products/product_2/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/our_products/product_3/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/our_products/product_4/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/our_products/product_5/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/tags/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/tags/wall/</loc>
+    <lastmod>2020-01-11T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zahidur59.github.io/hugoTestbed/about/</loc>
   </url>
   
   <url>
@@ -115,11 +203,7 @@
   </url>
   
   <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/our_products/</loc>
-  </url>
-  
-  <url>
-    <loc>https://zahidur59.github.io/hugoTestbed/tags/</loc>
+    <loc>https://zahidur59.github.io/hugoTestbed/product_category/</loc>
   </url>
   
 </urlset>

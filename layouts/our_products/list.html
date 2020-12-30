@@ -1,8 +1,8 @@
-{{ define "content" }} 
+{{ define "content" }}
     {{ .Content }}
     <hr class="mt-8 mb-8 text-gray-500" />
     <div class=" ">
-            {{ range .Site.Taxonomies.tags.product_category  }}
+            {{ range where .Site.Pages ".Params.category" "==" "product_category" }}
                 <div class="mb-8">
                     <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
                     <div class="text-xs text-purple-900">Type: {{ .Params.Texonomies.Categories }}</div>
@@ -11,4 +11,5 @@
                 </div>
             {{ end }}
          </div>
+    <P class="text-xs mt-8 text-gray-500">Our_product/list.html templete</P>
 {{ end }}

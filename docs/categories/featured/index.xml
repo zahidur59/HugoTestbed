@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Featured on Hugo Testbed</title>
+    <link>https://zahidur59.github.io/hugoTestbed/categories/featured/</link>
+    <description>Recent content in Featured on Hugo Testbed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jan 2020 00:00:00 +0600</lastBuildDate><atom:link href="https://zahidur59.github.io/hugoTestbed/categories/featured/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event 3</title>
+      <link>https://zahidur59.github.io/hugoTestbed/event_posts/event3/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0600</pubDate>
+      
+      <guid>https://zahidur59.github.io/hugoTestbed/event_posts/event3/</guid>
+      <description>Summery about Event 3 &amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Event 2</title>
+      <link>https://zahidur59.github.io/hugoTestbed/event_posts/event2/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0600</pubDate>
+      
+      <guid>https://zahidur59.github.io/hugoTestbed/event_posts/event2/</guid>
+      <description>Summery about Event 2 &amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Event 1</title>
+      <link>https://zahidur59.github.io/hugoTestbed/event_posts/event1/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0600</pubDate>
+      
+      <guid>https://zahidur59.github.io/hugoTestbed/event_posts/event1/</guid>
+      <description>Summery about Event 1 &amp;hellip;.</description>
+    </item>
+    
+  </channel>
+</rss>
