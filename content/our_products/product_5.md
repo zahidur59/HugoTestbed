@@ -3,8 +3,11 @@ title="Product C1"
 date = 2020-01-11
 draft= "false"
 summary = "Some product details"
-tags=["Homogeneous","featured","featured_home"]
+tags=["Homogeneous","mn","m1","white","gray"]
+subcategory=["Homogeneous"]
 category="product"
+featured = true
+featured_on_home = true
 +++
 ## Introduction
 ![alt text](../../img/backImg1.svg)

@@ -5,7 +5,7 @@
         <hr class="mt-8 mb-8 text-gray-500" />
         Featured Products
         <div class="flex overflow-hidden">
-            {{ range .Site.Taxonomies.tags.featured_home  }}
+            {{ range where .Site.Pages ".Params.featured_on_home" "eq" true }}
                 <div class="w-1/2 px-2 py-4 bg-rose-400">
                     <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
                     <div class="text-xs text-purple-900">Type: {{ .Params.Texonomies.Categories }}</div>

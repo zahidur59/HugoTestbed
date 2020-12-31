@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>wall on Hugo Testbed</title>
-    <link>https://zahidur59.github.io/hugoTestbed/tags/wall/</link>
-    <description>Recent content in wall on Hugo Testbed</description>
+    <title>black on Hugo Testbed</title>
+    <link>https://zahidur59.github.io/hugoTestbed/tags/black/</link>
+    <description>Recent content in black on Hugo Testbed</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0600</lastBuildDate><atom:link href="https://zahidur59.github.io/hugoTestbed/tags/wall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0600</lastBuildDate><atom:link href="https://zahidur59.github.io/hugoTestbed/tags/black/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Product A1</title>
       <link>https://zahidur59.github.io/hugoTestbed/our_products/product_1/</link>
@@ -26,11 +26,11 @@
     </item>
     
     <item>
-      <title>Product A3</title>
-      <link>https://zahidur59.github.io/hugoTestbed/our_products/product_3/</link>
+      <title>Product B1</title>
+      <link>https://zahidur59.github.io/hugoTestbed/our_products/product_4/</link>
       <pubDate>Sat, 11 Jan 2020 00:00:00 +0600</pubDate>
       
-      <guid>https://zahidur59.github.io/hugoTestbed/our_products/product_3/</guid>
+      <guid>https://zahidur59.github.io/hugoTestbed/our_products/product_4/</guid>
       <description>Some product details</description>
     </item>
     

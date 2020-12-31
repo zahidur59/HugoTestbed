@@ -1,16 +1,60 @@
 {{ define "content" }} 
-    {{ .Content }}
-    
-    <hr class="mt-8 mb-8 text-gray-500" />
-    <div class=" ">
-            {{ range .Site.Taxonomies.categories.product }}
-                <div class="mb-8">
-                    <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
-                    <div class="text-xs text-purple-900">Type: {{ .Params.Texonomies.tags }}</div>
-                    <div>{{ .Summary}}</div>
-                    <a href="{{ .Permalink}}" class="text-xs text-purple-900" >View</a>
-                </div>
-            {{ end }}
+<div class="text-xs flex flex-wrap"> 
+    {{ range .Params.tags }}
+       <span class="bg-gray-50 text-gray-500 p-1 mr-1 italic">{{ . }}</span> 
+    {{ end }}
+</div>
+<hr class="mt-8 mb-8 " />
+<div class="md:flex">
+        <div class="w-full md:w-3/5 lg:w-2/2">
+        {{ .Content }}
+        </div>
+     <!-- 
+     <hr class="mt-8 mb-8 text-gray-500" />
+     <div class=" ">
+         <h2>Related products</h2>
+         {{ range where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) ".Params.category" "eq" "product"  }}
+                {{ if ne .Permalink $.Permalink }}
+                    <div class="mb-8">
+                        <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
+                        <div class="text-xs text-purple-900">Type: {{ print .Params.tags }}</div>
+                        <div>{{ .Summary}}</div>
+                        <a href="{{ .Permalink}}" class="text-xs text-purple-900" >View</a>
+                    </div>
+                {{ end }}
+         {{ end }}
      </div>
-    <P class="text-xs mt-8 text-gray-500">Our_product/single.html templete</P>
+        -->
+        <div class="w-full md:w-2/5 lg:w-2/2 md:pl-8 lg:pl-16">
+             <div class=" ">
+                 <hr class="mt-4 mb-4 " />
+                 <p ><a href="../../our_products/" class="text-purple-900">all products</a></p>
+                 <hr class="mt-4 mb-4 " />
+                 <p ><a href="../../our_products/" class="text-purple-900">all products in category</a></p>
+                 <hr class="mt-4 mb-4 " />
+                 <h2>Related products -</h2>
+                 {{ range where ($related := .Site.RegularPages.RelatedIndices . "tags" "date") ".Params.category" "eq" "product" | first 3  }}
+                        <div class="mb-8">
+                            <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
+                            <div class="text-xs "> 
+                                {{ range .Params.tags }}
+                                   <span class="bg-gray-50 text-gray-500 p-1 mr-1 italic">{{ . }}</span> 
+                                {{ end }}
+                            </div>
+                            <div>{{ .Summary}}</div>
+                            <a href="{{ .Permalink}}" class="text-xs text-purple-900" >View</a>
+                        </div>
+                 {{ end }}
+             </div>
+            <div class=" "> 
+               <p>all tage:</p>
+                <div class="flex flex-wrap">
+                   {{ range .Site.Taxonomies.tags }}
+                        <span class="bg-gray-50 p-1 mr-1 text-xs"><a class="text-purple-900" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></span>
+                   {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+        <P class="text-xs mt-8 text-gray-500">Our_product/single.html templete</P>
 {{ end }}

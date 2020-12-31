@@ -2,7 +2,7 @@
     {{ .Content }}
     <hr class="mt-8 mb-8 text-gray-500" />
     <div class=" ">  
-        {{ range where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) ".Params.category" "!=" "product_category" }}
+        {{ range where (where .Site.Pages ".Params.subcategory" "intersect" .Params.subcategory) ".Params.category" "!=" "product_category" }}
             <div class="mb-8">
                 <div><a href="{{ .Permalink}}" class="text-purple-900">{{ .Title}}</a></div>
                 <div class="text-xs text-purple-900">Type: {{ .Params.Texonomies.Categories }}</div>

@@ -5,7 +5,8 @@ draft= "false"
 type="product_category"
 summary = "Details about product category C"
 bannerImage = "../img/background-textures-4.jpeg"
-tags=["Homogeneous"]
+tags=[]
+subcategory=["Homogeneous"]
 category="product_category"
 weight = 1
 +++

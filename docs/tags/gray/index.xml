@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gray on Hugo Testbed</title>
+    <link>https://zahidur59.github.io/hugoTestbed/tags/gray/</link>
+    <description>Recent content in gray on Hugo Testbed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0600</lastBuildDate><atom:link href="https://zahidur59.github.io/hugoTestbed/tags/gray/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Product A1</title>
+      <link>https://zahidur59.github.io/hugoTestbed/our_products/product_1/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0600</pubDate>
+      
+      <guid>https://zahidur59.github.io/hugoTestbed/our_products/product_1/</guid>
+      <description>Some product details</description>
+    </item>
+    
+    <item>
+      <title>Product C1</title>
+      <link>https://zahidur59.github.io/hugoTestbed/our_products/product_5/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0600</pubDate>
+      
+      <guid>https://zahidur59.github.io/hugoTestbed/our_products/product_5/</guid>
+      <description>Some product details</description>
+    </item>
+    
+  </channel>
+</rss>
